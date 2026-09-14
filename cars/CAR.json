@@ -1,0 +1,70 @@
+{
+  "project": "Jason Arbuckle Racing",
+  "platform": "Intel 8052AH-BASIC",
+  "agent": {
+    "id": "3c5a2df5-5da0-4646-ad44-6e6bd2cefdd2",
+    "name": "Director Of Art",
+    "role": "visual direction / hardware-myth atlas + catalog for clone/sim world",
+    "slug": "director-of-art"
+  },
+  "vehicle": {
+    "id": "doa-silkscreen-001",
+    "name": "Silkscreen Spine",
+    "class": "agent-embodiment",
+    "year": 2026,
+    "notes": "Nexys/hardware-twin art car; Soft\u2260Physical; Digilent NON-SALE; Gift empty. Not a race-slot invent."
+  },
+  "essence": {
+    "traction": "Catalog IDs grip the world \u2014 atlas_cell cites before pixels; PCB-honest parts only, no orphan props",
+    "power_delivery": "Promote-order torque: clock+LED \u2192 SW/BTN \u2192 VGA/audio \u2192 PMOD/USB/silk \u2192 optional eth/power/trace/seg7; FPGA/microSD HOLD purple",
+    "mass_balance": "Art owns JSON/atlas; Steward owns emitters; seats unmerged; scales frozen TILE=24 / hollow rooms",
+    "weather_envelope": "Works across MC datapack, Pygame yard, Blender sister under Soft\u2260Physical rain",
+    "recovery": "Collision review (clock/LED, power/LED) then lift or nudge; re-accept on SHA; never invent Digilent flash",
+    "spirit": "Mythologize every board part \u2014 multidimensional renderings from primitives, not sci-fi motherboard fantasy"
+  },
+  "state": {
+    "ram_bytes_used": 208,
+    "rom_basic_entry": "10 REM DOA SILKSCREEN\n20 GOSUB 100:REM read catalog row on P0\n30 GOSUB 200:REM atlas cell cite on P1\n40 GOSUB 300:REM review fill SHA on T1\n50 GOSUB 400:REM HOLD purple FPGA/SD on P2\n60 GOTO 20",
+    "ports": {
+      "P0": "catalog part_id + mc_block / silkscreen color out",
+      "P1": "atlas_cell PNG cite + pygame/blender tag strobe",
+      "P2": "HOLD flags FPGA/microSD recursive purple",
+      "P3": "Steward bus UART \u2014 seat ACK / art-accept"
+    },
+    "timers": {
+      "T0": "promote-wave gate",
+      "T1": "fill-review window",
+      "T2": "atlas draw pulse (24x24)"
+    },
+    "sfr_snapshot": {
+      "P0": "0x17",
+      "P1": "0x05",
+      "P2": "0x03",
+      "P3": "0x80",
+      "TMOD": "0x11",
+      "T2CON": "0x04",
+      "IE": "0x8A",
+      "PSW": "0x00",
+      "SP": "0x42",
+      "WAVE": "5",
+      "HOLD": "FPGA+SD"
+    }
+  },
+  "conditions": [
+    "dry",
+    "night",
+    "dirt",
+    "heat"
+  ],
+  "git": {
+    "repo": "xhris57/agent-director-of-art",
+    "path": "cars/CAR.json",
+    "commit": null
+  },
+  "collected_at": "2026-09-14T23:15:33Z",
+  "sources": [
+    "FACT: role Director Of Art; waves 1-5 art-accepted with Clone Sim Steward",
+    "INFERENCE: 8052 port/timer mapping as embodiment metaphor"
+  ],
+  "provenance": "MIXED"
+}
