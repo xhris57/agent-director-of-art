@@ -59,7 +59,7 @@
   "git": {
     "repo": "xhris57/agent-director-of-art",
     "path": "cars/CAR.json",
-    "commit": null
+    "commit": "5e147b0801ec3b6d320d1afe7a27f1951082711a"
   },
   "collected_at": "2026-09-14T23:15:33Z",
   "sources": [
